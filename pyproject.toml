@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cta"
+version = "0.1.0"
+description = "Cognito token authenticator"
+authors = ["jason davila <jason@noviconnect.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyjwt = "2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
